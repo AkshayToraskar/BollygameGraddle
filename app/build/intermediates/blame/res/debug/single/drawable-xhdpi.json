@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Project\\Mobile\\Android\\BollygameGraddle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\splash.png",
+        "source": "E:\\Project\\Mobile\\Android\\BollygameGraddle\\app\\src\\main\\res\\drawable-xhdpi\\splash.png"
+    },
+    {
+        "merged": "E:\\Project\\Mobile\\Android\\BollygameGraddle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\Project\\Mobile\\Android\\BollygameGraddle\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

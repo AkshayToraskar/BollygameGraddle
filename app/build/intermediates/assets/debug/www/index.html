@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>BollyGame</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" charset="utf-8" src="play.js"></script>
+	<script type="text/javascript" charset="utf-8" src="BollyDB.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<script type="text/javascript">
+		d.page="index";
+
+		function init() 
+		{	document.addEventListener("deviceready", dbload, true);
+        } 
+        
+	</script>
+  </head>
+
+  <body onload="init();">
+    <div class="content">
+	    <div class="logo"><img src="img/logo.png" width="250px"/></div>
+		<div class="play"><a href="play.html"><img class="play" src="img/play.png" width="200px" onClick="stopMedia();"/></a></div>
+
+		<div class="setting">
+			<a href="info.html"><img src="img/info.png" onClick="playStream('tile_tap');" width="50px"/></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="setting.html"><img src="img/setting.png" onClick="playStream('tile_tap');" width="50px"/></a>
+		</div>
+	</div>
+  </body>
+</html>

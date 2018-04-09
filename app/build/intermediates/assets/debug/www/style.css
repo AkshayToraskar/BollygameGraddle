@@ -1,0 +1,169 @@
+@font-face {
+    font-family: House-A-Rama;
+    src: url("style/House-A-Rama.ttf");
+}
+
+body
+{ 	background-color: orange;
+	background-image: url("img/pattern.jpg");
+	font-size: 20px;
+  	font-family: 'House-A-Rama';
+   	font-weight: normal;
+   	font-style: normal;
+   	image-border:none;
+}
+
+p
+{	font-size: 13px;
+  	font-family: 'House-A-Rama';
+   	font-weight: normal;
+   	font-style: normal;
+}
+
+div.content
+{	text-align:center;
+}
+
+
+//set images position
+//for index page
+
+div.logo
+{	position:relative;
+	margin: auto;
+}
+div.play
+{	position:relative;
+	margin: auto;
+}
+
+
+div.setting
+{	position:relative;
+	top:20px;
+	margin:auto;
+}
+
+div.score
+{	position:absolute;
+	top:10px;
+	right:10px;
+	color:white;
+}
+
+div.topbar
+{	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:auto;
+	background-image: url("img/top_bar.png");
+}
+
+//other page
+img.back
+{	position:absolute;
+    top: 0px; 
+    left: 0px; 
+}
+
+#btnback
+{	position:absolute;
+	top:65%;
+	right:5%;
+}
+
+#btnspace
+{	position:absolute;
+	top:72%;
+	right:5%;
+}
+#frame
+{	background-color:#eeeeee;
+    width:70%;
+    height:40%;
+    text-align:center;
+ 	
+ 	position:relative;
+    top: 45%; 
+    left: 15%; 
+}
+
+div.playContent
+{	text-align:center;
+	position:relative;
+	top: 80px; 
+    left: 5px; 
+}
+
+div.imgframe
+{   position:relative;
+	top: 2px; 
+    left: 5px; 
+}
+div.label
+{	position:relative;
+	top:-15px;
+	//left:50%;
+
+	text-align:center;
+	height:34px;
+	width:196px;
+	margin:auto;
+	color:white;
+	background-color:red;
+	background-image: url("img/label.png");
+}
+
+div.btnans
+{	position:relative;
+	top: 10px; 
+    //left: 15%;
+    text-align:center;
+    //margin:5px;
+}
+
+div.btnall
+{	position:relative;
+	top: 30px; 
+   	//left:15%; 
+   	text-align:center;
+   	//margin:5px;
+}
+
+#tile
+{	background: url('img/tile.png')no-repeat top;
+	width:31px;
+	height:35px;
+	border:none;
+	
+	font-size: 13px;
+  	font-family: 'House-A-Rama';
+   	font-weight: normal;
+   	font-style: normal;
+}
+
+#tile_empty
+{	background: url('img/tile_empty.png')no-repeat top;
+	width:30px;
+	height:34px;
+	border:none;
+}
+
+div.dialog
+{	position:relative;
+	font-size: 15px;
+	top: 20px; 
+    //left: 15%;
+    text-align:center;
+    margin:auto;
+}
+
+div.next
+{	position:relative;
+	top: 20px; 
+   	//left:15%; 
+   	text-align:center;
+   	margin:auto;
+}
+

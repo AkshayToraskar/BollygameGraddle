@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>BollyGame</title>
+    
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" charset="utf-8" src="play.js"></script>
+	<script type="text/javascript" charset="utf-8" src="BollyDB.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	
+	<script type="text/javascript">
+		d.page="info";
+		document.addEventListener("deviceready", onDeviceReady, false);
+			function onDeviceReady()
+			{	document.addEventListener("backbutton", onBackKeyDown, false);
+			}
+	
+			function onBackKeyDown() 
+		    {	window.location="index.html";
+			}
+	</script>
+	
+  </head>
+  
+  <body>
+  	<a href="index.html"><img class="back" src="img/back.png" width="40"/></a>
+	
+	<div class="content">
+		<div class="logo"><img src="img/aksh_planet_logo.png" width="150px"/></div>
+		Developed by <h3>(AkshPlanet)</h3>
+		
+		<p> Team Member <br>
+		 (Akshay Toraskar)<br>
+		 (Suhas Shinde)<br><br>
+		 
+		 special thanks (jinfra)
+		</p>
+	</div>
+  </body>
+
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Project\Mobile\Android\BollygameGraddle\app\libs\cordova-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4cb0bb5f480d33beb5e57a8826ebe348320488f9">
+        <dex dex="E:\Project\Mobile\Android\BollygameGraddle\app\build\intermediates\pre-dexed\debug\cordova-1.9.0_759a144d646ff520e581e7dec8984bad7ae9eed0.jar" />
+    </item>
+
+</items>
